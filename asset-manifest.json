@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/flipfind/static/css/main.eceae0a9.css",
-    "main.js": "/flipfind/static/js/main.a053839c.js",
+    "main.css": "/flipfind/static/css/main.084ba7ea.css",
+    "main.js": "/flipfind/static/js/main.fc4fa150.js",
     "static/js/453.db768f99.chunk.js": "/flipfind/static/js/453.db768f99.chunk.js",
     "static/media/logo.svg": "/flipfind/static/media/logo.c464cb1c1c540bd9fbb4042fa6d66f88.svg",
     "index.html": "/flipfind/index.html",
-    "main.eceae0a9.css.map": "/flipfind/static/css/main.eceae0a9.css.map",
-    "main.a053839c.js.map": "/flipfind/static/js/main.a053839c.js.map",
+    "main.084ba7ea.css.map": "/flipfind/static/css/main.084ba7ea.css.map",
+    "main.fc4fa150.js.map": "/flipfind/static/js/main.fc4fa150.js.map",
     "453.db768f99.chunk.js.map": "/flipfind/static/js/453.db768f99.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eceae0a9.css",
-    "static/js/main.a053839c.js"
+    "static/css/main.084ba7ea.css",
+    "static/js/main.fc4fa150.js"
   ]
 }
