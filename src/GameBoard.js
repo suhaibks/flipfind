@@ -21,16 +21,18 @@ const GameBoard = ({ difficulty, setGameStarted }) => {
 
   const getGridSize = () => {
     switch(difficulty) {
-      case 'easy': return { rows: 4, cols: 4 };
-      case 'medium': return { rows: 4, cols: 6 };
-      case 'hard': return { rows: 6, cols: 6 };
+      case 'easy': return { rows: 4, cols: 4 };  // 4x4 (16 cards)
+      case 'medium': return { rows: 4, cols: 6 }; // 6x4 (24 cards)
+      case 'hard': return { rows: 6, cols: 6 };  // 6x6 (36 cards)
       default: return { rows: 4, cols: 4 };
     }
   };
+  
 
   const initializeGame = () => {
     const { rows, cols } = getGridSize();
-    const emojis = generateEmojis((rows * cols) / 2);
+    const totalCards = rows * cols;
+    const emojis = generateEmojis(totalCards / 2);
     const newCards = shuffleArray([...emojis, ...emojis]).map((emoji, i) => ({
       id: i,
       emoji,
